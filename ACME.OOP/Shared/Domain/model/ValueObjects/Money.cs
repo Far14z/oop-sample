@@ -13,4 +13,9 @@ public record Money // Es inmutable
         Amount = amount;
         Currency = currency;
     }
+    
+    public string AsString()
+    {
+        return $"{Amount} {Currency}";
+    }
 }
