@@ -6,7 +6,7 @@ public record SupplierId
     public SupplierId(string identifier)
     {
         if (string.IsNullOrWhiteSpace(identifier))
-            throw new ArgumentException("Supplier ID cannot be null or empty", nameof(identifier));
+            throw new ArgumentException(nameof(identifier));
         Identifier = identifier;
             
     }
