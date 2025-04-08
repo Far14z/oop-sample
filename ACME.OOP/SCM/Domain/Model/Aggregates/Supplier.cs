@@ -16,3 +16,4 @@ public class Supplier(string identifier, string name, Address address)
     public string Name { get; } = name ?? throw new ArgumentNullException(nameof(name));
     public Address Address { get; } = address ?? throw new ArgumentNullException(nameof(address));
 }
+
