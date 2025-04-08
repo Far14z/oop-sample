@@ -1,4 +1,4 @@
 ## oop-sample
 
 ## summary
-Sample console demostration to demostrate to use Domain Driven Desing in C#
+Sample console application to demonstrate to use POO and Domain Driven Design in C#.
