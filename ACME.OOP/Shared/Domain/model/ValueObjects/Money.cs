@@ -8,9 +8,7 @@ public record Money // Es inmutable
     public Money(decimal amount, string currency)
     {
         if (string.IsNullOrWhiteSpace(currency) || currency.Length != 3)
-        {
-            throw new ArgumentException("Currency must be 3 character long ISO currency code.", nameof(currency));
-        }
+            throw new ArgumentException("Currency must be 3-letter ISO currency code.", nameof(currency));
         
         Amount = amount;
         Currency = currency;
