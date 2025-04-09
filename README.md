@@ -17,7 +17,7 @@ Sample console application to demonstrate to use POO and Domain Driven Design in
 ## Class Diagram
 the following class diagram illustrates the structure of the application:
 
-![class-diagram](https://www.plantuml.com/plantuml/proxy?scr=https://raw.githubusercontent.com/Far14z/oop-sample/refs/heads/main/docs/class-diagram.puml)
+![class-diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Far14z/oop-sample/refs/heads/main/docs/class-diagram.puml)
 
 See [docs/class-diagram.pum](docs/class-diagram.puml) for the source code diagram.
 
